@@ -7,7 +7,7 @@ Find the perfect song for your codebase with CodeSongs!
 
 CodeSongs allows a user to select a GitHub repository and a musical artist and then "Songify" their code to find that artists best matching songs for the code. To do so CodeSongs uses IBM's Watson Tone Analyzer to identify the occurring sentiments in the code as well as in the selected artists top songs. CodeSongs then uses a proprietary algorithm to match the repo with the best suited songs.
 
-This repository is for the CodeSongs front end. For the CodeSongs Microservice please see the [repository page on GitHub](https://github.com/BabsLabs/code_songs_microservice).
+This repository is for the CodeSongs front end. For the CodeSongs Microservice please see the [repository page on GitHub](https://github.com/ap2322/code_songs_microservice).
 
 ## Purpose
 
@@ -54,8 +54,8 @@ The following Ruby Gems are used in this project:
 
 ## Database
 
-### Database Diagram
-![Database Diagram](https://raw.githubusercontent.com/BabsLabs/code_songs/readme_bb/app/assets/images/codesongs_database_design.png)
+### Database 
+CodeSongs only has a users table in the database to facilitate sessions. The [CodeSongs Microservice](https://github.com/ap2322/code_songs_microservice) stores track and sentiment data.
 
 ### Database Setup
 
